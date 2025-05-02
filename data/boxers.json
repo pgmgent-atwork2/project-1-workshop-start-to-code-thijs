@@ -1,0 +1,32 @@
+[
+    {
+        "image": "./images/1986s-prime-mike-tyson-v0-lrgdr19p9gec1.webp",
+        "choices": ["Tike Myson", "Efe Ajagba", "Dillian Whyte", "Mike Tyson"],
+        "answer": "Mike Tyson"
+    },
+    {
+        "image": "./images/Hobbs-Ali.webp",
+        "choices": ["Muhammad Ali", "Gokhan Saki", "Cassius Clay", "George Foreman" ],
+        "answer": "Muhammad Ali"
+    },
+    {
+        "image": "./images/tyson-fury-wbc-world-heavyweight-title-fight-victory-dillian-whyte-wembley-stadium-april-23-2022-professional-boxing.webp",
+        "choices": ["Ivan Drago", "Nikolai Valuev", "Tyson Fury", "Evander Holyfield"],
+        "answer": "Tyson Fury"
+    },
+    {
+        "image": "./images/monzon.jpeg",
+        "choices": ["Hector Camacho", "Carlos Monzon", "Eduardo Rodriguez", "Quepasa Gringo"],
+        "answer": "Carlos Monzon"
+    },
+    {
+        "image": "./images/ade01140-3004-11ef-97a3-b9fc9fdbba57.jpg",
+        "choices": ["Clubber Lang", "Anthony Joshua", "Apollo Creed", "Daniel Dubois"],
+        "answer": "Anthony Joshua"
+    },
+    {
+        "image": "./images/original.png",
+        "choices": ["Sugar Ray Robinson", "Marvin Hagler", "Sugar Ray Leonard", "Floyd Mayweather Jr."],
+        "answer": "Sugar Ray Leonard"
+    }
+]
