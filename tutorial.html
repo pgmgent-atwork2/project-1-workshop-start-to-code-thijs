@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Hoe maak je het</title>
 </head>
 <body>
+    <nav class="navigation">
+        <button class="navigation__button"><a class="navigation__link" href="index.html">Game</a></button>
+        <button class="navigation__button"><a class="navigation__link" href="#">How to make it</a></button>
+    </nav>
+    
+    <main>
+        <h1 class="app__title">Welkom bij de tutorial</h1>
+
+        <div>
+            <h2>Inleiding</h2>
+            <p>
+                In deze tutorial leer je hoe je een quiz-app maakt met JSON voor de quizvragen, HTML voor de structuur, CSS voor de styling, en JavaScript voor de functionaliteit. Deze app is geschikt voor beginners en gebruikt eenvoudige technologieën die makkelijk te begrijpen zijn.
+            </p>
+
+            <h2>We hebben nodig:</h2>
+            <p>
+                Visual Studio Code: Dit is het programma waarin de magie zal gebeuren. <a href="https://code.visualstudio.com/">Download het via deze link</a>
+            </p>
+        </div>
+
+        <div>
+            <h2>Stap 1:</h2>
+            <p>
+                Maak 4 files aan genaamd: index.html, main.css, boxers.json en app.js
+            </p>
+            <h3>Een korte uitleg over de files:</h3>
+            <p>
+                1. index.html: Het index.html bestand is het belangrijkste HTML-bestand van je project en bevat de structuur van je webpagina. Het wordt geladen wanneer iemand de app in een webbrowser opent. In dit geval bevat het de structuur van de quiz-app.
+            </p>
+
+            <p>
+                2. main.css: Het main.css bestand bevat de opmaak van je quiz. Hierin geef je stijlregels die bepalen hoe de verschillende elementen op de pagina eruitzien (zoals kleuren, lettertypen, afmetingen, enz.).
+            </p>
+
+            <p>
+                3. Het app.js bestand bevat de JavaScript-code die de functionaliteit van je quiz beheert. Dit bestand is verantwoordelijk voor het ophalen van de vragen, het weergeven ervan aan de gebruiker, het controleren van de antwoorden, en het tonen van het resultaat.
+            </p>
+
+            <p>
+                4. Het boxers.json bestand bevat de vragen. JSON (JavaScript Object Notation) is een formaat om gegevens op te slaan en uit te wisselen tussen systemen. Het is leesbaar voor zowel mensen als computers.
+            </p>
+        </div>
+
+        <div>
+            <h2>Stap 2:</h2>
+            <h3>De images folder</h3>
+            <p>
+                Vooraleer we beginnen met code te schrijven gaan we een mapje aanmaken genaamd images. Deze images zullen worden gebruikt in het JSON bestand om een beeld te geven over de persoon in kwestie.
+            </p>
+            <img src="images/Schermafbeelding 2025-05-02 112917.png" alt="">
+            <p>
+                We zetten er de volgende afbeeldingen in om dit voorbeeld na te maken.
+            </p>
+        </div>
+        <div>
+            <h2>Stap 3:</h2>
+            <h3>Het JSON bestand</h3>
+            <img src="images/json.png" alt="">
+            <p>
+                Hierboven zien we het JSON bestand. Zoals eerder gezegd zit al de inhoud in dit bestand. Typ het bovenstaande na. Een JSON bestand is een array met verschillende objecten in. Elk object bestaat uit een afbeelding, de keuzes en het correcte antwoord.
+            </p>
+        </div>
+
+        <div>
+            <h2>Stap 4:</h2>
+            <h3>Javascript</h3>
+            <img src="images/javascript.png" alt="">
+            <p>
+                In de reeds aangemaakte javascript file genaamd "app.js" gaan we nu de code invoegen. We gaan het JSON bestand fetchen. Dit wil zeggen dat we de informatie die we in het JSON bestand hebben gezet leesbaar zullen maken in de webbrowser.
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Made by Thijs
+        </p>
+    </footer>
     
 </body>
 </html>
